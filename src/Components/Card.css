@@ -1,0 +1,35 @@
+.card{
+    background-color: rgb(132, 105, 148);
+    display: inline-block;
+    border: 2px solid rgb(150, 117, 184);
+    height: max-content;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+}
+
+.body{
+    background-color: lavender;
+}
+
+.info {
+    background-color: rgb(132, 105, 148);
+    display: block;
+    border: 2px solid rgb(150, 117, 184);
+    height: max-content;
+    width: 300px;
+    text-align: center;
+    margin:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-group {
+    display: block;
+    height: max-content;
+    width: 300px;
+    text-align: center;
+    margin:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
