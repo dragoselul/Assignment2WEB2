@@ -1,13 +1,29 @@
-import { Link, Outlet } from "react-router-dom"
+import { Route, HashRouter, Link, Routes  } from "react-router-dom";
+import Home from "./routes/FrontPage.js";
+import About from "./routes/AboutMe.js";
+import "./App.css"
 
-export default function App() {
+function Navigation() {
     return (
-        <>
-            <nav>
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-            </nav>
-            <Outlet />
-        </>
+      <nav>
+            <Link className="links" to="/">Home</Link>
+            <Link className="links" to="/about">About</Link>
+      </nav>
+    );
+  }
+
+const App = () => {
+    return (
+        <HashRouter>
+        <div>
+            <Navigation />
+            <Routes>
+            <Route exact path="/" element={<Home/>} />
+            <Route path="/about" element={<About/>} />
+            </Routes>
+        </div>
+      </HashRouter>
     )
 }
+
+export default App;

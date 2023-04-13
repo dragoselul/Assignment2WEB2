@@ -1,9 +1,9 @@
-import "./AboutMe.js"
+import "./AboutMe.css"
 
 
 export default function Aboutme(){
     return <>
-    <div class="background">
+    <div className="background">
     <h1>About me</h1>
     </div>
     </>

@@ -1,5 +1,4 @@
-
-.link-style{
+.links {
     color: black;
     font-size: large;
     padding: 14px 25px;
@@ -7,4 +6,4 @@
     text-decoration: none;
     display: inline-block;
     margin: 15px;
-  }
+}
