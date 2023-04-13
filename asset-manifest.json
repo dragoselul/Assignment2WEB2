@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Assignment2WEB2/static/css/main.318f6f39.css",
-    "main.js": "/Assignment2WEB2/static/js/main.9633160d.js",
+    "main.css": "/Assignment2WEB2/static/css/main.39912c0d.css",
+    "main.js": "/Assignment2WEB2/static/js/main.99f53380.js",
+    "static/media/pikachu.jpg": "/Assignment2WEB2/static/media/pikachu.cb69504bad92c5cfb4c9.jpg",
     "index.html": "/Assignment2WEB2/index.html",
-    "main.318f6f39.css.map": "/Assignment2WEB2/static/css/main.318f6f39.css.map",
-    "main.9633160d.js.map": "/Assignment2WEB2/static/js/main.9633160d.js.map"
+    "main.39912c0d.css.map": "/Assignment2WEB2/static/css/main.39912c0d.css.map",
+    "main.99f53380.js.map": "/Assignment2WEB2/static/js/main.99f53380.js.map"
   },
   "entrypoints": [
-    "static/css/main.318f6f39.css",
-    "static/js/main.9633160d.js"
+    "static/css/main.39912c0d.css",
+    "static/js/main.99f53380.js"
   ]
 }
